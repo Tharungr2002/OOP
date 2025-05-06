@@ -15,6 +15,8 @@ public class Wrapper {
 
         MainWrapper Someone = new MainWrapper("Someone");
 
+//        tharun = new MainWrapper("ththth");
+
         System.out.println(Someone.name);
     }
     static void swap(int a,int b) {
