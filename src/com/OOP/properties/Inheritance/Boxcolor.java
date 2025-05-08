@@ -1,4 +1,4 @@
-package com.OOP.Inheritance;
+package com.OOP.properties.Inheritance;
 
 public class Boxcolor extends Boxweight{
     int side;
@@ -15,6 +15,9 @@ public class Boxcolor extends Boxweight{
     Boxcolor(int l,int w,int side ) {
         super(l,w);
         this.side =side;
+    }
+    Boxcolor(int side) {
+        this.side=side;
     }
 
 }

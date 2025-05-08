@@ -1,4 +1,4 @@
-package com.OOP.Inheritance;
+package com.OOP.properties.Inheritance;
 
 public class main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.OOP.Inheritance;
+package com.OOP.properties.Inheritance;
 
 public class Box {
     int l;
