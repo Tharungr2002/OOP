@@ -14,6 +14,10 @@ public class Box {
         this.b=b;
         this.w=w;
     }
+    Box(int l, int b) {
+        this.l=l;
+        this.b=b;
+    }
     Box(Box old) {
         this.l=old.l;
         this.b=old.b;

@@ -8,5 +8,15 @@ public class main {
 
         System.out.println(obj1.weight);
 
+        Boxcolor obj3 = new Boxcolor(2,2,2,2,2);
+
+        Boxcolor obj4 = new Boxcolor(obj3);
+
+        Boxcolor obj5 = new Boxcolor(2,3,40);
+
+        Boxweight obj6 = new Boxweight();
+        System.out.println(obj6.weight);
+
+
     }
 }
