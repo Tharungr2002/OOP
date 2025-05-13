@@ -3,6 +3,10 @@ package com.OOP.properties.Inheritance;
 public class Boxweight extends Box {
     int weight;
 
+    //@Override
+    public static void greetings(){
+        System.out.println("From Boxweight");
+    }
     Boxweight(int l,int b,int w,int weight) {
         super(l,b,w);
         this.weight= weight;

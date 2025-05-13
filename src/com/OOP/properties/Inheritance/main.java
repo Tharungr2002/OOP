@@ -14,8 +14,9 @@ public class main {
 
         Boxcolor obj5 = new Boxcolor(2,3,40);
 
-        Boxweight obj6 = new Boxweight();
-        System.out.println(obj6.weight);
+        Box obj6 = new Boxweight();
+
+        obj6.greetings();
 
 
     }
