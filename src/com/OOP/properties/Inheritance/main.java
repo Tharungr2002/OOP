@@ -14,9 +14,11 @@ public class main {
 
         Boxcolor obj5 = new Boxcolor(2,3,40);
 
-        Box obj6 = new Boxweight();
+        Box obj6 = new Box();
+            obj6.sett(10);
+        System.out.println(obj6.getprivate());
 
-        obj6.greetings();
+        Box.greetings();
 
 
     }

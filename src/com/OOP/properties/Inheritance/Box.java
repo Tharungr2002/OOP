@@ -13,6 +13,9 @@ public class Box {
     public int getprivate() {
         return p;
     }
+    public void sett(int p) {
+        this.p =p;
+    }
     Box(int l, int b,int w) {
         this.l=l;
         this.b=b;
