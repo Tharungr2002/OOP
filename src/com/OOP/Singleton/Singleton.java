@@ -1,6 +1,8 @@
 package com.OOP.Singleton;
 
-public class Singleton {
+import com.OOP.Access.A;
+
+public class Singleton   {
     String s;
 
     private static Singleton singletonStatus;
@@ -15,6 +17,8 @@ public class Singleton {
 
         return singletonStatus;
     }
+
+
 
 
 }
