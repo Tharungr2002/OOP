@@ -14,7 +14,7 @@ public class Subclass extends A {
     }
 }
 
-class subsubclass extends Subclass {
+ class subsubclass extends Subclass {
 
     public subsubclass(String name, int n, int num) {
         super(name,n,num);
