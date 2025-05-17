@@ -5,7 +5,6 @@ public class main {
         Boxweight obj1 = new Boxweight(1,1,1,1);
 
         Box obj2 = new Boxweight(1,1,1,1);
-
         System.out.println(obj1.weight);
 
         Boxcolor obj3 = new Boxcolor(2,2,2,2,2);
